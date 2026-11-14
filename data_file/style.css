@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../data_file/pexels-jeshoots-281618\ \(1\).webp");
   background-size: cover;
   background-position: center;
