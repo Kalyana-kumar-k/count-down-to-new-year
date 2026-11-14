@@ -1,71 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
-
-*{
-    margin:0;
-    padding:0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-body{
-    width:100vw;
-    height:100vh;    
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../data_file/pexels-jeshoots-281618.jpg") ;
-    background-size: cover;
-    background-position: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color:white;
+body {
+  width: 100vw;
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("../data_file/pexels-jeshoots-281618\ \(1\).webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
 }
-.counter{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    gap:30px;
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
 }
-p{
-   font-size: 20px;
-   margin-bottom: 10px;
+p {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-h1{
-        font-family: "Inspiration" , cursive;
-        font-weight: 400;
-        font-size:70px;
+h1 {
+  font-family: "Inspiration", cursive;
+  font-weight: 400;
+  font-size: 70px;
 }
-.box{
-    height:50px;
-    width:50px;
-    font-size: 20px;
-    text-align: center;
+.box {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
 }
-@media (min-width:580px){
-    p{
-        font-size:30px;
-    }
-    h1{
-            font-size:85px;
-    }
-    .box{
-        font-size: 30px;
-    }
-    .counter{
-        gap:60px;
-    }
-    
+@media (min-width: 580px) {
+  p {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 85px;
+  }
+  .box {
+    font-size: 30px;
+  }
+  .counter {
+    gap: 60px;
+  }
 }
-@media (min-width:780px){
-    p{
-        font-size:40px;
-    }
-    h1{
-            font-size:100px;
-    }
-    .box{
-        font-size: 40px;
-    }
-    .counter{
-        gap:90px;
-    }
+@media (min-width: 780px) {
+  p {
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  .box {
+    font-size: 40px;
+  }
+  .counter {
+    gap: 90px;
+  }
 }
