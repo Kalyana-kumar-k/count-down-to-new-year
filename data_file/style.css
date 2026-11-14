@@ -10,14 +10,17 @@ body {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../data_file/pexels-jeshoots-281618\ \(1\).webp");
+    url("../data_file/pexels-jeshoots281618.webp");
   background-size: cover;
+  object-fit: cover;
+  object-position: center;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: white;
+  user-select: none;
 }
 .counter {
   display: flex;
@@ -32,10 +35,14 @@ p {
 }
 h1 {
   font-family: "Inspiration", cursive;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 70px;
 }
 .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 50px;
   width: 50px;
   font-size: 20px;
